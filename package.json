@@ -20,7 +20,6 @@
     "pages": "npm run bootstrap && npm run pages:build && npm run pages:push",
     "pages:build": "cd packages/site && npm run build && cd ../..",
     "pages:push": "git add -f packages/site/build && git commit -m 'chore: update built files' && git push origin $(git subtree split --prefix packages/site/build master):gh-pages --force && git reset --hard HEAD^",
-    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
@@ -36,11 +35,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "husky": "^8.0.1",
     "lerna": "^5.2.0",
-    "lint-staged": "^13.0.3",
     "prettier": "~2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
     "sass": "^1.54.0",
