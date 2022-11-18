@@ -1,5 +1,5 @@
 {
-  "name": "@smui/dialog",
+  "name": "@detachhead/smui-dialog",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Dialog",
   "type": "module",

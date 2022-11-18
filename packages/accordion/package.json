@@ -1,5 +1,5 @@
 {
-  "name": "@smui-extra/accordion",
+  "name": "@detachhead/smui-extra-accordion",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Accordion",
   "type": "module",

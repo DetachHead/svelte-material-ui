@@ -1,5 +1,5 @@
 {
-  "name": "@smui-extra/site",
+  "name": "@detachhead/smui-extra-site",
   "version": "7.0.0-beta.0",
   "description": "SMUI Website (You're not meant to install this.)",
   "type": "module",

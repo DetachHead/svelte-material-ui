@@ -1,5 +1,5 @@
 {
-  "name": "@smui/switch",
+  "name": "@detachhead/smui-switch",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Switch",
   "type": "module",

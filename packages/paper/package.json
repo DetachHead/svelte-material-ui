@@ -1,5 +1,5 @@
 {
-  "name": "@smui/paper",
+  "name": "@detachhead/smui-paper",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Paper",
   "type": "module",

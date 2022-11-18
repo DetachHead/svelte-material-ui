@@ -1,5 +1,5 @@
 {
-  "name": "@smui/snackbar",
+  "name": "@detachhead/smui-snackbar",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Snackbar",
   "type": "module",

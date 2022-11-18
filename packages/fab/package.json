@@ -1,5 +1,5 @@
 {
-  "name": "@smui/fab",
+  "name": "@detachhead/smui-fab",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Floating Action Button",
   "type": "module",

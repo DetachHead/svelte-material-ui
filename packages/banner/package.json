@@ -1,5 +1,5 @@
 {
-  "name": "@smui/banner",
+  "name": "@detachhead/smui-banner",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Banner",
   "type": "module",

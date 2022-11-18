@@ -1,5 +1,5 @@
 {
-  "name": "@smui/image-list",
+  "name": "@detachhead/smui-image-list",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Image List",
   "type": "module",

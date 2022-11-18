@@ -1,5 +1,5 @@
 {
-  "name": "@smui/checkbox",
+  "name": "@detachhead/smui-checkbox",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Checkbox",
   "type": "module",

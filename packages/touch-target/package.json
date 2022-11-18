@@ -1,5 +1,5 @@
 {
-  "name": "@smui/touch-target",
+  "name": "@detachhead/smui-touch-target",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Touch Target",
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "@smui/data-table",
+  "name": "@detachhead/smui-data-table",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Data Table",
   "type": "module",

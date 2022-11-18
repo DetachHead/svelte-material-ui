@@ -1,5 +1,5 @@
 {
-  "name": "@smui/floating-label",
+  "name": "@detachhead/smui-floating-label",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Floating Label",
   "type": "module",

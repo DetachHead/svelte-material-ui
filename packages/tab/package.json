@@ -1,5 +1,5 @@
 {
-  "name": "@smui/tab",
+  "name": "@detachhead/smui-tab",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Tab",
   "type": "module",

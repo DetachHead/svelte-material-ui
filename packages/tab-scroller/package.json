@@ -1,5 +1,5 @@
 {
-  "name": "@smui/tab-scroller",
+  "name": "@detachhead/smui-tab-scroller",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Tab Scroller",
   "type": "module",

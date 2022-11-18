@@ -1,5 +1,5 @@
 {
-  "name": "@smui/tooltip",
+  "name": "@detachhead/smui-tooltip",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Tooltip",
   "type": "module",

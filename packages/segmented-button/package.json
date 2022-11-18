@@ -1,5 +1,5 @@
 {
-  "name": "@smui/segmented-button",
+  "name": "@detachhead/smui-segmented-button",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Segmented Button",
   "type": "module",

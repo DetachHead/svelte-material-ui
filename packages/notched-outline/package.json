@@ -1,5 +1,5 @@
 {
-  "name": "@smui/notched-outline",
+  "name": "@detachhead/smui-notched-outline",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Notched Outline",
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "@smui-extra/badge",
+  "name": "@detachhead/smui-extra-badge",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Badge",
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "@smui/chips",
+  "name": "@detachhead/smui-chips",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Chips",
   "type": "module",

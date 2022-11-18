@@ -1,5 +1,5 @@
 {
-  "name": "@smui/icon-button",
+  "name": "@detachhead/smui-icon-button",
   "version": "7.0.0-beta.0",
   "description": "Svelte Material UI - Icon Button",
   "type": "module",
