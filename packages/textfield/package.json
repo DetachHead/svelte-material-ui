@@ -64,11 +64,11 @@
     "@material/ripple": "^14.0.0",
     "@material/rtl": "^14.0.0",
     "@material/textfield": "^14.0.0",
-    "@smui/common": "^7.0.0-beta.0",
-    "@smui/floating-label": "^7.0.0-beta.0",
-    "@smui/line-ripple": "^7.0.0-beta.0",
-    "@smui/notched-outline": "^7.0.0-beta.0",
-    "@smui/ripple": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
+    "@detachhead/smui-floating-label": "^7.0.0-beta.0",
+    "@detachhead/smui-line-ripple": "^7.0.0-beta.0",
+    "@detachhead/smui-notched-outline": "^7.0.0-beta.0",
+    "@detachhead/smui-ripple": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

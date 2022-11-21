@@ -40,9 +40,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@material/tab": "^14.0.0",
-    "@smui/common": "^7.0.0-beta.0",
-    "@smui/ripple": "^7.0.0-beta.0",
-    "@smui/tab-indicator": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
+    "@detachhead/smui-ripple": "^7.0.0-beta.0",
+    "@detachhead/smui-tab-indicator": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

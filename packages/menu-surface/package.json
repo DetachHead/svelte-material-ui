@@ -41,7 +41,7 @@
   "dependencies": {
     "@material/animation": "^14.0.0",
     "@material/menu-surface": "^14.0.0",
-    "@smui/common": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

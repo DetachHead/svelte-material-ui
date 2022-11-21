@@ -41,9 +41,9 @@
   "dependencies": {
     "@material/dom": "^14.0.0",
     "@material/menu": "^14.0.0",
-    "@smui/common": "^7.0.0-beta.0",
-    "@smui/list": "^7.0.0-beta.0",
-    "@smui/menu-surface": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
+    "@detachhead/smui-list": "^7.0.0-beta.0",
+    "@detachhead/smui-menu-surface": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

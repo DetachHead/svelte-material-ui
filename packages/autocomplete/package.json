@@ -42,11 +42,11 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@smui/common": "^7.0.0-beta.0",
-    "@smui/list": "^7.0.0-beta.0",
-    "@smui/menu": "^7.0.0-beta.0",
-    "@smui/menu-surface": "^7.0.0-beta.0",
-    "@smui/textfield": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
+    "@detachhead/smui-list": "^7.0.0-beta.0",
+    "@detachhead/smui-menu": "^7.0.0-beta.0",
+    "@detachhead/smui-menu-surface": "^7.0.0-beta.0",
+    "@detachhead/smui-textfield": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

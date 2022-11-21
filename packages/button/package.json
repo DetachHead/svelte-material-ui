@@ -44,8 +44,8 @@
     "@material/feature-targeting": "^14.0.0",
     "@material/ripple": "^14.0.0",
     "@material/theme": "^14.0.0",
-    "@smui/common": "^7.0.0-beta.0",
-    "@smui/ripple": "^7.0.0-beta.0",
+    "@detachhead/smui-common": "^7.0.0-beta.0",
+    "@detachhead/smui-ripple": "^7.0.0-beta.0",
     "svelte2tsx": "^0.5.12"
   },
   "devDependencies": {

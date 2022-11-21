@@ -17,15 +17,15 @@
 
 <script lang="ts">
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     exclude,
     prefixFilter,
     useActions,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   import InnerGrid from './InnerGrid.svelte';
 
