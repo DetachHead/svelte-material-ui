@@ -30,9 +30,9 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@smui-extra/accordion": "^7.0.0-beta.0",
-    "@smui-extra/autocomplete": "^7.0.0-beta.0",
-    "@smui-extra/badge": "^7.0.0-beta.0",
+    "@detachhead/smui-extra-accordion": "^7.0.0-beta.0",
+    "@detachhead/smui-extra-autocomplete": "^7.0.0-beta.0",
+    "@detachhead/smui-extra-badge": "^7.0.0-beta.0",
     "@detachhead/smui-banner": "^7.0.0-beta.0",
     "@detachhead/smui-button": "^7.0.0-beta.0",
     "@detachhead/smui-card": "^7.0.0-beta.0",
