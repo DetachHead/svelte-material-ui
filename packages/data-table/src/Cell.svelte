@@ -67,14 +67,14 @@
   import { onMount, getContext, setContext } from 'svelte';
   import type { Writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   import type { SMUIDataTableCellAccessor } from './Cell.types.js';
 

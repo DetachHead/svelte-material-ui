@@ -25,8 +25,8 @@
 <pre class="status">Response: {response}</pre>
 
 <script lang="ts">
-  import Dialog, { Title, Content, Actions } from '@smui/dialog';
-  import Button, { Label } from '@smui/button';
+  import Dialog, { Title, Content, Actions } from '@detachhead/smui-dialog';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let open = false;
   let response = 'Nothing yet.';

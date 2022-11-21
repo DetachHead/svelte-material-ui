@@ -33,8 +33,8 @@
 <pre class="status">Total: {selectedPrice}</pre>
 
 <script lang="ts">
-  import DataTable, { Head, Body, Row, Cell } from '@smui/data-table';
-  import Checkbox from '@smui/checkbox';
+  import DataTable, { Head, Body, Row, Cell } from '@detachhead/smui-data-table';
+  import Checkbox from '@detachhead/smui-checkbox';
 
   $: selectedPrice = selected.reduce(
     (total, option) => option.price + total,

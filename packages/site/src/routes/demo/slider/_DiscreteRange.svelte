@@ -13,7 +13,7 @@
 <pre class="status">Value: {valueStart} - {valueEnd}</pre>
 
 <script lang="ts">
-  import Slider from '@smui/slider';
+  import Slider from '@detachhead/smui-slider';
 
   let valueStart = 4;
   let valueEnd = 6;

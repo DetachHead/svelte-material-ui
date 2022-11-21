@@ -17,8 +17,8 @@
     JSON.stringify(event.detail)}</pre>
 
 <script lang="ts">
-  import { dispatch } from '@smui/common/internal';
-  import Button from '@smui/button';
+  import { dispatch } from '@detachhead/smui-common/internal';
+  import Button from '@detachhead/smui-button';
 
   let target: HTMLDivElement;
   let event: CustomEvent<{ time: string }>;

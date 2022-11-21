@@ -60,16 +60,16 @@
 </div>
 
 <script lang="ts">
-  import Accordion, { Panel, Header, Content } from '@smui-extra/accordion';
-  import Button, { Label } from '@smui/button';
-  import Tooltip, { Wrapper } from '@smui/tooltip';
-  import Menu from '@smui/menu';
-  import List, { Item, Text } from '@smui/list';
+  import Accordion, { Panel, Header, Content } from '@detachhead/smui-extra-accordion';
+  import Button, { Label } from '@detachhead/smui-button';
+  import Tooltip, { Wrapper } from '@detachhead/smui-tooltip';
+  import Menu from '@detachhead/smui-menu';
+  import List, { Item, Text } from '@detachhead/smui-list';
   import Dialog, {
     Title,
     Content as DialogContent,
     Actions,
-  } from '@smui/dialog';
+  } from '@detachhead/smui-dialog';
 
   let menu: Menu;
   let dialogOpen = false;

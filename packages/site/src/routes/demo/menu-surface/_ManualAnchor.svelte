@@ -34,13 +34,13 @@
 </div>
 
 <script lang="ts">
-  import MenuSurface, { Anchor } from '@smui/menu-surface';
+  import MenuSurface, { Anchor } from '@detachhead/smui-menu-surface';
   import ImageList, {
     Item as ImageListItem,
     ImageAspectContainer,
     Image,
-  } from '@smui/image-list';
-  import Button from '@smui/button';
+  } from '@detachhead/smui-image-list';
+  import Button from '@detachhead/smui-button';
 
   let surface: MenuSurface;
   let anchor: HTMLDivElement;

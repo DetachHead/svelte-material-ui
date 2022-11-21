@@ -7,5 +7,5 @@
 </MenuSurface>
 
 <script lang="ts">
-  import MenuSurface from '@smui/menu-surface';
+  import MenuSurface from '@detachhead/smui-menu-surface';
 </script>

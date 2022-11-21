@@ -72,16 +72,16 @@
     SMUICheckboxInputAccessor,
     SMUIGenericInputAccessor,
     SMUIRadioInputAccessor,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
-  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@smui/common';
-  import { SmuiElement } from '@smui/common';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
+  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@detachhead/smui-common';
+  import { SmuiElement } from '@detachhead/smui-common';
 
   import type { SMUIListItemAccessor } from './Item.types.js';
 

@@ -10,8 +10,8 @@
 <pre class="status">Selected: {onoff}</pre>
 
 <script lang="ts">
-  import Radio from '@smui/radio';
-  import FormField from '@smui/form-field';
+  import Radio from '@detachhead/smui-radio';
+  import FormField from '@detachhead/smui-form-field';
 
   let onoff = 'On';
 </script>

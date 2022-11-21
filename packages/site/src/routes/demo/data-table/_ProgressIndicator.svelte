@@ -31,9 +31,9 @@
 </DataTable>
 
 <script lang="ts">
-  import DataTable, { Head, Body, Row, Cell } from '@smui/data-table';
-  import LinearProgress from '@smui/linear-progress';
-  import Button from '@smui/button';
+  import DataTable, { Head, Body, Row, Cell } from '@detachhead/smui-data-table';
+  import LinearProgress from '@detachhead/smui-linear-progress';
+  import Button from '@detachhead/smui-button';
 
   type User = {
     id: number;

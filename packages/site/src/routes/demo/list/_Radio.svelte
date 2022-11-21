@@ -36,8 +36,8 @@
 <pre class="status">Selected: {selected}</pre>
 
 <script lang="ts">
-  import List, { Item, Graphic, Label } from '@smui/list';
-  import Radio from '@smui/radio';
+  import List, { Item, Graphic, Label } from '@detachhead/smui-list';
+  import Radio from '@detachhead/smui-radio';
 
   let selected = 'Tom Hanks';
 </script>

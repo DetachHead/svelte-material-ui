@@ -31,14 +31,14 @@
   import { MDCNotchedOutlineFoundation } from '@material/notched-outline';
   import { onMount } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     useActions,
-  } from '@smui/common/internal';
-  import type { SMUIFloatingLabelAccessor } from '@smui/floating-label';
+  } from '@detachhead/smui-common/internal';
+  import type { SMUIFloatingLabelAccessor } from '@detachhead/smui-floating-label';
 
   type OwnProps = {
     use?: ActionArray;

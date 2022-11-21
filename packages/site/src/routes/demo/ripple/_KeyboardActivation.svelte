@@ -12,7 +12,7 @@
 </p>
 
 <script lang="ts">
-  import Ripple from '@smui/ripple';
+  import Ripple from '@detachhead/smui-ripple';
 
   let active = false;
 </script>

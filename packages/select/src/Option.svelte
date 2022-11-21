@@ -12,9 +12,9 @@
   import { getContext, setContext } from 'svelte';
   import type { Writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
-  import { forwardEventsBuilder } from '@smui/common/internal';
-  import { Item } from '@smui/list';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
+  import { forwardEventsBuilder } from '@detachhead/smui-common/internal';
+  import { Item } from '@detachhead/smui-list';
 
   type OwnProps = {
     use?: ActionArray;

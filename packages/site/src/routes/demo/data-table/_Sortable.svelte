@@ -61,8 +61,8 @@
     Cell,
     Label,
     SortValue,
-  } from '@smui/data-table';
-  import IconButton from '@smui/icon-button';
+  } from '@detachhead/smui-data-table';
+  import IconButton from '@detachhead/smui-icon-button';
 
   type User = {
     id: number;

@@ -12,13 +12,13 @@
 <script lang="ts">
   import { onMount, setContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs, SMUICheckboxInputAccessor } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs, SMUICheckboxInputAccessor } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   import type { SMUIDataTableCellAccessor } from './Cell.types.js';
   import type { SMUIDataTableHeadAccessor } from './Head.types.js';

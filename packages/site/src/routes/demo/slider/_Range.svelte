@@ -20,8 +20,8 @@
 <pre class="status">Value: {valueStart} - {valueEnd}</pre>
 
 <script lang="ts">
-  import Slider from '@smui/slider';
-  import Button from '@smui/button';
+  import Slider from '@detachhead/smui-slider';
+  import Button from '@detachhead/smui-button';
 
   let valueStart = 1;
   let valueEnd = 4;

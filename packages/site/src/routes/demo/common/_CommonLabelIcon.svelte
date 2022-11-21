@@ -9,8 +9,8 @@
 </div>
 
 <script lang="ts">
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
-  import Fab from '@smui/fab';
-  import { Icon, Label } from '@smui/common';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Fab from '@detachhead/smui-fab';
+  import { Icon, Label } from '@detachhead/smui-common';
 </script>

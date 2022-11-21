@@ -31,9 +31,9 @@
 <pre class="status">Response: {response}</pre>
 
 <script lang="ts">
-  import Dialog, { Header, Title, Content, Actions } from '@smui/dialog';
-  import IconButton from '@smui/icon-button';
-  import Button, { Label } from '@smui/button';
+  import Dialog, { Header, Title, Content, Actions } from '@detachhead/smui-dialog';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Button, { Label } from '@detachhead/smui-button';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let open = false;

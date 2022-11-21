@@ -31,5 +31,5 @@
 </DataTable>
 
 <script lang="ts">
-  import DataTable, { Head, Body, Row, Cell } from '@smui/data-table';
+  import DataTable, { Head, Body, Row, Cell } from '@detachhead/smui-data-table';
 </script>

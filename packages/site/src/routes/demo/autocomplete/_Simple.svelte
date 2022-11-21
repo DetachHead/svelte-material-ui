@@ -60,7 +60,7 @@
 </div>
 
 <script lang="ts">
-  import Autocomplete from '@smui-extra/autocomplete';
+  import Autocomplete from '@detachhead/smui-extra-autocomplete';
 
   let fruits = ['Apple', 'Orange', 'Banana', 'Mango'];
 

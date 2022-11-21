@@ -26,9 +26,9 @@
 </Button>
 
 <script lang="ts">
-  import Dialog, { Content } from '@smui/dialog';
-  import IconButton from '@smui/icon-button';
-  import Button, { Label } from '@smui/button';
+  import Dialog, { Content } from '@detachhead/smui-dialog';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Button, { Label } from '@detachhead/smui-button';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let open = false;

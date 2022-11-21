@@ -3,7 +3,7 @@ import Accordion from './Accordion.svelte';
 import Panel from './Panel.svelte';
 export * from './Panel.types.js';
 import Header from './Header.svelte';
-import { Content } from '@smui/paper';
+import { Content } from '@detachhead/smui-paper';
 
 export default Accordion;
 

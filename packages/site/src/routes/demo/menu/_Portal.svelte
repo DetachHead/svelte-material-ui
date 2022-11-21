@@ -96,10 +96,10 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import Portal from 'svelte-portal';
-  import Menu from '@smui/menu';
-  import { Anchor } from '@smui/menu-surface';
-  import List, { Item, Separator, Text, Meta } from '@smui/list';
-  import Button, { Label } from '@smui/button';
+  import Menu from '@detachhead/smui-menu';
+  import { Anchor } from '@detachhead/smui-menu-surface';
+  import List, { Item, Separator, Text, Meta } from '@detachhead/smui-list';
+  import Button, { Label } from '@detachhead/smui-button';
   import { mdiMenuRight } from '@mdi/js';
 
   let menu: Menu;

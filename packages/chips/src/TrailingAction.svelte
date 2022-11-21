@@ -44,8 +44,8 @@
   import { deprecated } from '@material/chips';
   import { onMount, tick } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs, SmuiElementPropMap } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs, SmuiElementPropMap } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -53,8 +53,8 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
 
   import type { SMUIChipsTrailingActionAccessor } from './TrailingAction.types.js';
 

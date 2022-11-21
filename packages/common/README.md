@@ -111,7 +111,7 @@ Dispatch a custom event. This differs from Svelte's component event system, beca
 />
 
 <script lang="ts">
-  import { dispatch } from '@smui/common/internal';
+  import { dispatch } from '@detachhead/smui-common/internal';
 
   let eventTarget;
 
@@ -156,7 +156,7 @@ Exclude a set of properties from an object. It differs from normal `omit` functi
 </div>
 
 <script lang="ts">
-  import { exclude, prefixFilter } from '@smui/common/internal';
+  import { exclude, prefixFilter } from '@detachhead/smui-common/internal';
 
   let className = '';
   export { className as class };
@@ -195,7 +195,7 @@ In addition, a component that uses Svelte's built in event forwarding system can
 </div>
 
 <script lang="ts">
-  import { forwardEventsBuilder } from '@smui/common/internal';
+  import { forwardEventsBuilder } from '@detachhead/smui-common/internal';
   import { get_current_component } from 'svelte/internal';
 
   const forwardEvents = forwardEventsBuilder(get_current_component());
@@ -235,7 +235,7 @@ Filter an object for only properties with a certain prefix. It is usually used a
 </div>
 
 <script lang="ts">
-  import { exclude, prefixFilter } from '@smui/common/internal';
+  import { exclude, prefixFilter } from '@detachhead/smui-common/internal';
 
   let className = '';
   export { className as class };
@@ -270,8 +270,8 @@ An action that takes actions and runs them on the element. Used to allow actions
 </div>
 
 <script lang="ts">
-  import type { ActionArray } from '@smui/common/internal';
-  import { useActions } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
+  import { useActions } from '@detachhead/smui-common/internal';
 
   export let use: ActionArray = [];
 </script>
@@ -309,7 +309,7 @@ A function that announces a string of text to users who are using a screen reade
 </Button>
 
 <script lang="ts">
-  import { announce } from '@smui/common/internal';
+  import { announce } from '@detachhead/smui-common/internal';
 </script>
 ```
 
@@ -342,7 +342,7 @@ A base component that adds a class to an element. The ClassAdder is used to prov
 Use this to build a ClassAdder component. ClassAdder components are useful for reducing the size of your bundle. If you have tons of simple components that just need to add classes/props or set a context, using ClassAdder components means there's only one actual Svelte component in your bundle for all of these many tiny components.
 
 ```js
-import { classAdderBuilder } from '@smui/common/classadder';
+import { classAdderBuilder } from '@detachhead/smui-common/classadder';
 
 export default classAdderBuilder({
   class: 'my-added-class',
@@ -353,8 +353,8 @@ export default classAdderBuilder({
 You can also supply a component that implements the `SmuiComponent` interface.
 
 ```js
-import { classAdderBuilder } from '@smui/common/classadder';
-import Button from '@smui/button';
+import { classAdderBuilder } from '@detachhead/smui-common/classadder';
+import Button from '@detachhead/smui-button';
 
 export default classAdderBuilder({
   class: 'my-added-class',

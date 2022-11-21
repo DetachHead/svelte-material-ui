@@ -52,8 +52,8 @@
     SmuiAttrs,
     SmuiElementPropMap,
     SMUIRadioInputAccessor,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -61,8 +61,8 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
 
   type OwnProps = {
     use?: ActionArray;

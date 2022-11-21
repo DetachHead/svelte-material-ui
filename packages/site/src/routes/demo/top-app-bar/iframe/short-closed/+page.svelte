@@ -27,8 +27,8 @@
     Section,
     Title,
     AutoAdjust,
-  } from '@smui/top-app-bar';
-  import IconButton from '@smui/icon-button';
+  } from '@detachhead/smui-top-app-bar';
+  import IconButton from '@detachhead/smui-icon-button';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let topAppBar: TopAppBar;

@@ -63,8 +63,8 @@
     Segment,
     Icon,
     Label,
-  } from '@smui/segmented-button';
-  import { Svg } from '@smui/common';
+  } from '@detachhead/smui-segmented-button';
+  import { Svg } from '@detachhead/smui-common';
   import {
     mdiFormatAlignLeft,
     mdiFormatAlignCenter,

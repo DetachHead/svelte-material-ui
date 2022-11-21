@@ -44,9 +44,9 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Menu, { SelectionGroup, SelectionGroupIcon } from '@smui/menu';
-  import List, { Item, Separator, Text } from '@smui/list';
-  import Button, { Label } from '@smui/button';
+  import Menu, { SelectionGroup, SelectionGroupIcon } from '@detachhead/smui-menu';
+  import List, { Item, Separator, Text } from '@detachhead/smui-list';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let menu: Menu;
   let clicked = 'nothing yet';

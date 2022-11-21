@@ -10,7 +10,7 @@ export * from './Row.types.js';
 import Cell from './Cell.svelte';
 export * from './Cell.types.js';
 import Pagination from './Pagination.svelte';
-import { Label } from '@smui/common';
+import { Label } from '@detachhead/smui-common';
 
 export default DataTable;
 

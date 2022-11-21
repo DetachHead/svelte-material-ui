@@ -23,8 +23,8 @@
   import BottomAppBar, {
     Section,
     AutoAdjust,
-  } from '@smui-extra/bottom-app-bar';
-  import IconButton from '@smui/icon-button';
+  } from '@detachhead/smui-extra-bottom-app-bar';
+  import IconButton from '@detachhead/smui-icon-button';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let bottomAppBar: BottomAppBar;

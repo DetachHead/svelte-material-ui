@@ -53,9 +53,9 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import Icon from '@smui/textfield/icon';
-  import HelperText from '@smui/textfield/helper-text';
+  import Textfield from '@detachhead/smui-textfield';
+  import Icon from '@detachhead/smui-textfield/icon';
+  import HelperText from '@detachhead/smui-textfield/helper-text';
 
   let valueA = '';
   let valueB = '';

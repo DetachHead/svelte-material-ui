@@ -69,10 +69,10 @@
     Row,
     Cell,
     Pagination,
-  } from '@smui/data-table';
-  import Select, { Option } from '@smui/select';
-  import IconButton from '@smui/icon-button';
-  import { Label } from '@smui/common';
+  } from '@detachhead/smui-data-table';
+  import Select, { Option } from '@detachhead/smui-select';
+  import IconButton from '@detachhead/smui-icon-button';
+  import { Label } from '@detachhead/smui-common';
 
   type Todo = {
     id: number;

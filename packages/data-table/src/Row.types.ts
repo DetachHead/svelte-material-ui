@@ -1,4 +1,4 @@
-import type { SMUICheckboxInputAccessor } from '@smui/common';
+import type { SMUICheckboxInputAccessor } from '@detachhead/smui-common';
 
 interface SMUIDataTableHeaderRowAccessor {
   _smui_data_table_row_accessor: false;

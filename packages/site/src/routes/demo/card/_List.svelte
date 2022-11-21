@@ -18,8 +18,8 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Card, { Content } from '@smui/card';
-  import List, { Item, Text } from '@smui/list';
+  import Card, { Content } from '@detachhead/smui-card';
+  import List, { Item, Text } from '@detachhead/smui-list';
 
   let clicked = 0;
 </script>

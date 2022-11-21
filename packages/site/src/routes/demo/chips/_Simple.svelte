@@ -22,7 +22,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Chip, { Set, LeadingIcon, TrailingIcon, Text } from '@smui/chips';
+  import Chip, { Set, LeadingIcon, TrailingIcon, Text } from '@detachhead/smui-chips';
 
   let clicked = 0;
 </script>

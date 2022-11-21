@@ -32,8 +32,8 @@
 </div>
 
 <script lang="ts">
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
 
   let liftMeUp = false;
 </script>

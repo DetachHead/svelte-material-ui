@@ -9,8 +9,8 @@
 </div>
 
 <script lang="ts">
-  import { exclude, prefixFilter } from '@smui/common/internal';
-  import Button from '@smui/button';
+  import { exclude, prefixFilter } from '@detachhead/smui-common/internal';
+  import Button from '@detachhead/smui-button';
 
   let className = '';
   export { className as class };

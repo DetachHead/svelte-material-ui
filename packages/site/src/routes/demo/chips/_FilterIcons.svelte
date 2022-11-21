@@ -8,7 +8,7 @@
 <pre class="status">Selected: {selected.join(', ')}</pre>
 
 <script lang="ts">
-  import Chip, { Set, LeadingIcon, Text } from '@smui/chips';
+  import Chip, { Set, LeadingIcon, Text } from '@detachhead/smui-chips';
 
   let choices = ['Shoes', 'Pants', 'Shirts', 'Hats', 'Coats'];
   let selected = ['Shoes', 'Shirts', 'Coats'];

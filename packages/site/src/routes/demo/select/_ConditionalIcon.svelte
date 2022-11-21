@@ -76,9 +76,9 @@
 </div>
 
 <script lang="ts">
-  import Select, { Option } from '@smui/select';
-  import Icon from '@smui/select/icon';
-  import Button from '@smui/button';
+  import Select, { Option } from '@detachhead/smui-select';
+  import Icon from '@detachhead/smui-select/icon';
+  import Button from '@detachhead/smui-button';
 
   let fruits = ['Apple', 'Orange', 'Banana', 'Mango'];
 

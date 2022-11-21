@@ -24,15 +24,15 @@
   import { ponyfill } from '@material/dom';
   import { onMount } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     dispatch,
-  } from '@smui/common/internal';
-  import type { SMUIListAccessor } from '@smui/list';
-  import type { SMUIMenuSurfaceAccessor } from '@smui/menu-surface';
-  import MenuSurface from '@smui/menu-surface';
+  } from '@detachhead/smui-common/internal';
+  import type { SMUIListAccessor } from '@detachhead/smui-list';
+  import type { SMUIMenuSurfaceAccessor } from '@detachhead/smui-menu-surface';
+  import MenuSurface from '@detachhead/smui-menu-surface';
 
   import type { DefaultFocusState } from './Menu.types.js';
 

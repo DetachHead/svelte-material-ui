@@ -22,8 +22,8 @@
 </div>
 
 <script lang="ts">
-  import { SmuiElement } from '@smui/common';
-  import Button, { Label } from '@smui/button';
+  import { SmuiElement } from '@detachhead/smui-common';
+  import Button, { Label } from '@detachhead/smui-button';
 
   import { onMount } from 'svelte';
 

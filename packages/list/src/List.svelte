@@ -36,15 +36,15 @@
   import type { ComponentType, SvelteComponent } from 'svelte';
   import { onMount, onDestroy, getContext, setContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { AddLayoutListener, RemoveLayoutListener } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { AddLayoutListener, RemoveLayoutListener } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     dispatch,
-  } from '@smui/common/internal';
-  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@smui/common';
-  import { SmuiElement } from '@smui/common';
+  } from '@detachhead/smui-common/internal';
+  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@detachhead/smui-common';
+  import { SmuiElement } from '@detachhead/smui-common';
 
   import type { SMUIListAccessor } from './List.types.js';
   import type { SMUIListItemAccessor } from './Item.types.js';

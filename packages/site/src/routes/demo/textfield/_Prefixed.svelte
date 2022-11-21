@@ -34,7 +34,7 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
+  import Textfield from '@detachhead/smui-textfield';
 
   let valueA = '';
   let valueB = '';

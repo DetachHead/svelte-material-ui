@@ -7,7 +7,7 @@
       It *must* be a string. (Hence `${fruit ? fruit.id : ''}` in this
       example. That returns a string for the numberic `id` field and `null` and
       `undefined` values even.)
-      
+
       If the string is empty (""), the label will stop floating when that option
       is selected and the component is unfocused. Therefore, the option for that
       value shouldn't have any text, or the floating label will overlap it.
@@ -55,7 +55,7 @@
 </div>
 
 <script lang="ts">
-  import Select, { Option } from '@smui/select';
+  import Select, { Option } from '@detachhead/smui-select';
 
   type Fruit = { id: number; label: string; price: number };
   let fruits: Fruit[] = [

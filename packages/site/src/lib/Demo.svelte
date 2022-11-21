@@ -77,10 +77,10 @@
 <script lang="ts">
   import type { SvelteComponentDev } from 'svelte/internal';
   import { mdiGithub, mdiCodeTags, mdiCodeTagsCheck } from '@mdi/js';
-  import Card, { Content, Actions, ActionIcons } from '@smui/card';
-  import IconButton, { Icon } from '@smui/icon-button';
-  import Tooltip, { Wrapper } from '@smui/tooltip';
-  import { Svg } from '@smui/common';
+  import Card, { Content, Actions, ActionIcons } from '@detachhead/smui-card';
+  import IconButton, { Icon } from '@detachhead/smui-icon-button';
+  import Tooltip, { Wrapper } from '@detachhead/smui-tooltip';
+  import { Svg } from '@detachhead/smui-common';
 
   export let file: string | undefined = undefined;
   export let files: string[] = typeof file === 'string' ? [file] : [];

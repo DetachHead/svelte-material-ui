@@ -12,10 +12,10 @@
 </Button>
 
 <script lang="ts">
-  import Snackbar, { Actions, Label } from '@smui/snackbar';
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
-  import Textfield from '@smui/textfield';
+  import Snackbar, { Actions, Label } from '@detachhead/smui-snackbar';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Textfield from '@detachhead/smui-textfield';
 
   let snackbar: Snackbar;
   let text = 'This is a snackbar with dynamic text.';

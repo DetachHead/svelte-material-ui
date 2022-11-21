@@ -26,9 +26,9 @@
 <pre class="status">Selected: {selected}</pre>
 
 <script lang="ts">
-  import Radio from '@smui/radio';
-  import FormField from '@smui/form-field';
-  import Button from '@smui/button';
+  import Radio from '@detachhead/smui-radio';
+  import FormField from '@detachhead/smui-form-field';
+  import Button from '@detachhead/smui-button';
 
   let options = [
     {

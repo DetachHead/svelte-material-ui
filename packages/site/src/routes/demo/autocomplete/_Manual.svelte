@@ -37,8 +37,8 @@
 </div>
 
 <script lang="ts">
-  import Autocomplete from '@smui-extra/autocomplete';
-  import Textfield from '@smui/textfield';
+  import Autocomplete from '@detachhead/smui-extra-autocomplete';
+  import Textfield from '@detachhead/smui-textfield';
 
   let fruits = ['Apple', 'Orange', 'Banana', 'Mango'];
 

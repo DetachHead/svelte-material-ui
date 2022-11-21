@@ -12,8 +12,8 @@
 <pre class="status">Closed Reason: {reason}</pre>
 
 <script lang="ts">
-  import Snackbar, { Actions, Label } from '@smui/snackbar';
-  import Button from '@smui/button';
+  import Snackbar, { Actions, Label } from '@detachhead/smui-snackbar';
+  import Button from '@detachhead/smui-button';
 
   let snackbar: Snackbar;
   let reason = 'nothing yet';

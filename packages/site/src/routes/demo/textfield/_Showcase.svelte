@@ -38,9 +38,9 @@
   class="status">Focused: {focused}, Dirty: {dirty}, Invalid: {invalid}, Value: {value}</pre>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import Icon from '@smui/textfield/icon';
-  import HelperText from '@smui/textfield/helper-text';
+  import Textfield from '@detachhead/smui-textfield';
+  import Icon from '@detachhead/smui-textfield/icon';
+  import HelperText from '@detachhead/smui-textfield/helper-text';
 
   let focused = false;
   let value: string | null = null;

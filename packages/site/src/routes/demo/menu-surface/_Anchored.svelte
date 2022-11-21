@@ -14,9 +14,9 @@
 </div>
 
 <script lang="ts">
-  import MenuSurface from '@smui/menu-surface';
-  import Textfield from '@smui/textfield';
-  import Button from '@smui/button';
+  import MenuSurface from '@detachhead/smui-menu-surface';
+  import Textfield from '@detachhead/smui-textfield';
+  import Button from '@detachhead/smui-button';
 
   let surface: MenuSurface;
   let name = '';

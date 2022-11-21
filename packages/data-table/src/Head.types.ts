@@ -1,4 +1,4 @@
-import type { SMUICheckboxInputAccessor } from '@smui/common';
+import type { SMUICheckboxInputAccessor } from '@detachhead/smui-common';
 import type { SMUIDataTableCellAccessor } from './Cell.types.js';
 
 export interface SMUIDataTableHeadAccessor {

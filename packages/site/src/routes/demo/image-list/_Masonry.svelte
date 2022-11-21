@@ -18,7 +18,7 @@
 </ImageList>
 
 <script lang="ts">
-  import ImageList, { Item, Image, Supporting, Label } from '@smui/image-list';
+  import ImageList, { Item, Image, Supporting, Label } from '@detachhead/smui-image-list';
 
   function getUnevenImageSize(
     counter: number,

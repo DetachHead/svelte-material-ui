@@ -117,9 +117,9 @@
     Actions,
     ActionButtons,
     ActionIcons,
-  } from '@smui/card';
-  import Button, { Label } from '@smui/button';
-  import IconButton, { Icon } from '@smui/icon-button';
+  } from '@detachhead/smui-card';
+  import Button, { Label } from '@detachhead/smui-button';
+  import IconButton, { Icon } from '@detachhead/smui-icon-button';
 
   let clicked = 0;
 </script>

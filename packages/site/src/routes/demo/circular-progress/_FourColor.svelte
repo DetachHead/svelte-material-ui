@@ -8,5 +8,5 @@
 </div>
 
 <script lang="ts">
-  import CircularProgress from '@smui/circular-progress';
+  import CircularProgress from '@detachhead/smui-circular-progress';
 </script>

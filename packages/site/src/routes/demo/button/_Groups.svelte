@@ -69,7 +69,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Button, { Group, Label } from '@smui/button';
+  import Button, { Group, Label } from '@detachhead/smui-button';
 
   let clicked = 0;
 </script>

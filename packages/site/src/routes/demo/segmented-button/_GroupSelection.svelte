@@ -7,7 +7,7 @@
 <pre class="status">Selected: {selected.join(', ')}</pre>
 
 <script lang="ts">
-  import SegmentedButton, { Segment, Label } from '@smui/segmented-button';
+  import SegmentedButton, { Segment, Label } from '@detachhead/smui-segmented-button';
 
   let choices = ['Shoes', 'Pants', 'Shirts', 'Hats', 'Coats'];
   let selected = ['Shoes', 'Shirts', 'Coats'];

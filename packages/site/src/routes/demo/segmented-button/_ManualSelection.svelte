@@ -22,7 +22,7 @@
     .join(', ')}</pre>
 
 <script lang="ts">
-  import SegmentedButton, { Segment, Label } from '@smui/segmented-button';
+  import SegmentedButton, { Segment, Label } from '@detachhead/smui-segmented-button';
 
   let choices = [
     {

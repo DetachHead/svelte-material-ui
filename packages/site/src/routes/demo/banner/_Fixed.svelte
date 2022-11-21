@@ -7,6 +7,6 @@
 </Banner>
 
 <script lang="ts">
-  import Banner, { Label } from '@smui/banner';
-  import Button from '@smui/button';
+  import Banner, { Label } from '@detachhead/smui-banner';
+  import Button from '@detachhead/smui-button';
 </script>

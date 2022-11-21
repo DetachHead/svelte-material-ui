@@ -41,11 +41,11 @@
 </div>
 
 <script lang="ts">
-  import Autocomplete from '@smui-extra/autocomplete';
-  import { Text } from '@smui/list';
-  import Button, { Label } from '@smui/button';
-  import Dialog, { Title, Content, Actions } from '@smui/dialog';
-  import Textfield from '@smui/textfield';
+  import Autocomplete from '@detachhead/smui-extra-autocomplete';
+  import { Text } from '@detachhead/smui-list';
+  import Button, { Label } from '@detachhead/smui-button';
+  import Dialog, { Title, Content, Actions } from '@detachhead/smui-dialog';
+  import Textfield from '@detachhead/smui-textfield';
 
   type Item = {
     id: number;

@@ -25,7 +25,7 @@
     Image,
     Supporting,
     Label,
-  } from '@smui/image-list';
+  } from '@detachhead/smui-image-list';
 
   function getUnevenImageSize(
     counter: number,

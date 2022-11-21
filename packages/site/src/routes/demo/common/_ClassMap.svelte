@@ -24,12 +24,12 @@
 </div>
 
 <script lang="ts">
-  import { classMap } from '@smui/common/internal';
-  import { Label } from '@smui/common';
-  import Button from '@smui/button';
-  import FormField from '@smui/form-field';
-  import Radio from '@smui/radio';
-  import Checkbox from '@smui/checkbox';
+  import { classMap } from '@detachhead/smui-common/internal';
+  import { Label } from '@detachhead/smui-common';
+  import Button from '@detachhead/smui-button';
+  import FormField from '@detachhead/smui-form-field';
+  import Radio from '@detachhead/smui-radio';
+  import Checkbox from '@detachhead/smui-checkbox';
 
   let big = false;
   let color = 'red';

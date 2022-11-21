@@ -10,8 +10,8 @@
 </script>
 
 <script lang="ts">
-  import Kitchen from '@smui/snackbar/kitchen';
-  import Button, { Label } from '@smui/button';
+  import Kitchen from '@detachhead/smui-snackbar/kitchen';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let kitchen: Kitchen;
   let reason = 'nothing yet';

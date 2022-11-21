@@ -32,8 +32,8 @@
 <pre class="status">Clicked: {toggleClicked}</pre>
 
 <script lang="ts">
-  import IconButton, { Icon } from '@smui/icon-button';
-  import Button, { Label } from '@smui/button';
+  import IconButton, { Icon } from '@detachhead/smui-icon-button';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let toggleClicked = 0;
   let initialOff = false;

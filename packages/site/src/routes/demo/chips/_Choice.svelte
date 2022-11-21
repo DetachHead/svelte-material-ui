@@ -21,8 +21,8 @@
 <pre class="status">Selected: {selected}</pre>
 
 <script lang="ts">
-  import Chip, { Set, Text } from '@smui/chips';
-  import Button, { Label } from '@smui/button';
+  import Chip, { Set, Text } from '@detachhead/smui-chips';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let choices = ['Morning', 'Afternoon', 'Evening', 'Night'];
   let selected = 'Morning';

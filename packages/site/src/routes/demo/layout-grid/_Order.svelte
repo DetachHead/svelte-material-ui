@@ -7,7 +7,7 @@
 </LayoutGrid>
 
 <script lang="ts">
-  import LayoutGrid, { Cell } from '@smui/layout-grid';
+  import LayoutGrid, { Cell } from '@detachhead/smui-layout-grid';
 </script>
 
 <style>

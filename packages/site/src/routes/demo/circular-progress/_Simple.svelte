@@ -13,10 +13,10 @@
 
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
-  import CircularProgress from '@smui/circular-progress';
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
-  import Button from '@smui/button';
+  import CircularProgress from '@detachhead/smui-circular-progress';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
+  import Button from '@detachhead/smui-button';
 
   let progress = 0;
   let closed = false;

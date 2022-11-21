@@ -21,9 +21,9 @@
 <pre class="status">Aligned: {align.name}</pre>
 
 <script lang="ts">
-  import SegmentedButton, { Segment, Icon } from '@smui/segmented-button';
-  import Wrapper from '@smui/touch-target';
-  import { Svg } from '@smui/common';
+  import SegmentedButton, { Segment, Icon } from '@detachhead/smui-segmented-button';
+  import Wrapper from '@detachhead/smui-touch-target';
+  import { Svg } from '@detachhead/smui-common';
   import {
     mdiFormatAlignLeft,
     mdiFormatAlignCenter,

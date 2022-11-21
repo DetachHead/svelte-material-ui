@@ -21,9 +21,9 @@
 </div>
 
 <script lang="ts">
-  import Button, { Label } from '@smui/button';
-  import Textfield from '@smui/textfield';
-  import { announce } from '@smui/common/internal';
+  import Button, { Label } from '@detachhead/smui-button';
+  import Textfield from '@detachhead/smui-textfield';
+  import { announce } from '@detachhead/smui-common/internal';
 
   let text = '';
 

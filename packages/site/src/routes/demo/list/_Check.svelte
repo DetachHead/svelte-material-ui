@@ -44,8 +44,8 @@
     : 'No change yet.'}</pre>
 
 <script lang="ts">
-  import List, { Item, Meta, Label } from '@smui/list';
-  import Checkbox from '@smui/checkbox';
+  import List, { Item, Meta, Label } from '@detachhead/smui-list';
+  import Checkbox from '@detachhead/smui-checkbox';
 
   let selected = ['Tom Hanks'];
   let changeEvent: CustomEvent<{ changedIndices: number[] }> | null;

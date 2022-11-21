@@ -57,16 +57,16 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Menu from '@smui/menu';
-  import { Anchor } from '@smui/menu-surface';
+  import Menu from '@detachhead/smui-menu';
+  import { Anchor } from '@detachhead/smui-menu-surface';
   import List, {
     Item,
     Separator,
     Text,
     PrimaryText,
     SecondaryText,
-  } from '@smui/list';
-  import Button, { Label } from '@smui/button';
+  } from '@detachhead/smui-list';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let menu: Menu;
   let anchor: HTMLDivElement;

@@ -51,9 +51,9 @@
 </div>
 
 <script lang="ts">
-  import Badge from '@smui-extra/badge';
-  import Button, { Label } from '@smui/button';
-  import IconButton from '@smui/icon-button';
-  import Fab from '@smui/fab';
-  import { Icon } from '@smui/common';
+  import Badge from '@detachhead/smui-extra-badge';
+  import Button, { Label } from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Fab from '@detachhead/smui-fab';
+  import { Icon } from '@detachhead/smui-common';
 </script>

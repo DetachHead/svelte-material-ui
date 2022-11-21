@@ -246,8 +246,8 @@
     RemoveLayoutListener,
     SmuiAttrs,
     SmuiElementPropMap,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -255,12 +255,12 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import { ContextFragment } from '@smui/common';
-  import Ripple from '@smui/ripple';
-  import FloatingLabel from '@smui/floating-label';
-  import LineRipple from '@smui/line-ripple';
-  import NotchedOutline from '@smui/notched-outline';
+  } from '@detachhead/smui-common/internal';
+  import { ContextFragment } from '@detachhead/smui-common';
+  import Ripple from '@detachhead/smui-ripple';
+  import FloatingLabel from '@detachhead/smui-floating-label';
+  import LineRipple from '@detachhead/smui-line-ripple';
+  import NotchedOutline from '@detachhead/smui-notched-outline';
 
   import HelperLine from './HelperLine.js';
   import Prefix from './Prefix.js';

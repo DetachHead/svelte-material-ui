@@ -38,7 +38,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import List, { Item, Text } from '@smui/list';
+  import List, { Item, Text } from '@detachhead/smui-list';
 
   let clicked = 'nothing yet';
 </script>

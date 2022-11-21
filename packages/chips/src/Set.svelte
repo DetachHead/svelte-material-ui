@@ -43,15 +43,15 @@
   import { onMount, setContext } from 'svelte';
   import { writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     announce,
     forwardEventsBuilder,
     classMap,
     useActions,
-  } from '@smui/common/internal';
-  import { ContextFragment } from '@smui/common';
+  } from '@detachhead/smui-common/internal';
+  import { ContextFragment } from '@detachhead/smui-common';
 
   import type { SMUIChipsChipAccessor } from './Chip.types.js';
 

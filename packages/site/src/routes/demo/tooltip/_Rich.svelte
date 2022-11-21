@@ -59,8 +59,8 @@
     Content,
     Link,
     RichActions,
-  } from '@smui/tooltip';
-  import Button, { Label } from '@smui/button';
+  } from '@detachhead/smui-tooltip';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let clicked = 0;
 </script>

@@ -11,7 +11,7 @@
 <pre class="status">Value: {value}</pre>
 
 <script lang="ts">
-  import Slider from '@smui/slider';
+  import Slider from '@detachhead/smui-slider';
 
   let value = 0;
 </script>

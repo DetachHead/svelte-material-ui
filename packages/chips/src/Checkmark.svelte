@@ -18,9 +18,9 @@
 </span>
 
 <script lang="ts">
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
-  import { classMap, useActions } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
+  import { classMap, useActions } from '@detachhead/smui-common/internal';
 
   type OwnProps = {
     use?: ActionArray;

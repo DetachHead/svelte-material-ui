@@ -46,11 +46,11 @@
 </div>
 
 <script lang="ts">
-  import Banner, { Label, Icon, CloseReason } from '@smui/banner';
-  import Button from '@smui/button';
-  import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
+  import Banner, { Label, Icon, CloseReason } from '@detachhead/smui-banner';
+  import Button from '@detachhead/smui-button';
+  import TopAppBar, { Row, Section, Title } from '@detachhead/smui-top-app-bar';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
 
   let open = false;
   let centered = false;

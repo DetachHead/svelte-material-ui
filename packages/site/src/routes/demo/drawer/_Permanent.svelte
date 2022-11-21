@@ -46,8 +46,8 @@
 </div>
 
 <script lang="ts">
-  import Drawer, { AppContent, Content } from '@smui/drawer';
-  import List, { Item, Text } from '@smui/list';
+  import Drawer, { AppContent, Content } from '@detachhead/smui-drawer';
+  import List, { Item, Text } from '@detachhead/smui-list';
 
   let clicked = 'nothing yet';
 </script>

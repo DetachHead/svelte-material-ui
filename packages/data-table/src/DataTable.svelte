@@ -72,8 +72,8 @@
     RemoveLayoutListener,
     SmuiAttrs,
     SmuiElementPropMap,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -81,7 +81,7 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   import type { SMUIDataTableHeadAccessor } from './Head.types.js';
   import type { SMUIDataTableBodyAccessor } from './Body.types.js';

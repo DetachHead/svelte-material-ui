@@ -32,10 +32,10 @@
 
 <script lang="ts">
   import type { MDCSnackbarCloseEvent } from '@material/snackbar';
-  import { prefixFilter } from '@smui/common/internal';
-  import { Label } from '@smui/common';
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
+  import { prefixFilter } from '@detachhead/smui-common/internal';
+  import { Label } from '@detachhead/smui-common';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
 
   import type { ConfigAction, Config } from './Kitchen.types.js';
   import Snackbar from '../Snackbar.svelte';

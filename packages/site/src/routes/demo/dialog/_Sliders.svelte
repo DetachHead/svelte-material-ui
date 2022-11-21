@@ -40,10 +40,10 @@
 </Button>
 
 <script lang="ts">
-  import Dialog, { Title, Content, Actions, InitialFocus } from '@smui/dialog';
-  import Button, { Label } from '@smui/button';
-  import Slider from '@smui/slider';
-  import FormField from '@smui/form-field';
+  import Dialog, { Title, Content, Actions, InitialFocus } from '@detachhead/smui-dialog';
+  import Button, { Label } from '@detachhead/smui-button';
+  import Slider from '@detachhead/smui-slider';
+  import FormField from '@detachhead/smui-form-field';
 
   let open = false;
   let volumeMedia = 100;

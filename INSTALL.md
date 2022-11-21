@@ -22,7 +22,7 @@ You will always import Svelte components from the individual packages.
 
 ```svelte
 <script>
-  import Button from '@smui/button';
+  import Button from '@detachhead/smui-button';
 </script>
 ```
 

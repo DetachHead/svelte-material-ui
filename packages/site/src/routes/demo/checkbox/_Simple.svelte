@@ -23,9 +23,9 @@
 <pre class="status">Checked: {checked2}</pre>
 
 <script lang="ts">
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
-  import Button from '@smui/button';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
+  import Button from '@detachhead/smui-button';
 
   let checked = false;
   let checked2 = false;

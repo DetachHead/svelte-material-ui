@@ -10,7 +10,7 @@
 </div>
 
 <script lang="ts">
-  import List, { Item, Separator, Text } from '@smui/list';
+  import List, { Item, Separator, Text } from '@detachhead/smui-list';
 </script>
 
 <style>

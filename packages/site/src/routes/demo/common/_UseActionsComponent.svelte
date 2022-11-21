@@ -5,8 +5,8 @@
 </div>
 
 <script lang="ts">
-  import type { ActionArray } from '@smui/common/internal';
-  import { useActions } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
+  import { useActions } from '@detachhead/smui-common/internal';
 
   export let use: ActionArray = [];
 </script>

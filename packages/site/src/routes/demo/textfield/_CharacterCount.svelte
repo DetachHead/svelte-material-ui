@@ -33,8 +33,8 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import CharacterCounter from '@smui/textfield/character-counter';
+  import Textfield from '@detachhead/smui-textfield';
+  import CharacterCounter from '@detachhead/smui-textfield/character-counter';
 
   let valueA = '';
   let valueB = '';

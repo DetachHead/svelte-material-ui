@@ -1,14 +1,14 @@
 <!--
   Using a manual setup gives you more control over the layout and
   elements inside the Textfield.
-  
+
   When you setup the textfield manually, you need to provide each
   of the components underneath to the Textfield component. It will
   also not be wrapped inside a label element, so you'll need to
   provide `id` and `for` attributes yourself. The HelperText does
   not pass its ID over to the Input either, so you'll need those
   accessibility attributes too.
-  
+
   The Textfield's foundation will only be initialized after a
   Svelte tick() has passed, in order to properly recieve the
   components. (This may have unforeseen consequences, IDK.
@@ -125,12 +125,12 @@
 </div>
 
 <script lang="ts">
-  import Textfield, { Input, Textarea } from '@smui/textfield';
-  import Icon from '@smui/textfield/icon';
-  import HelperText from '@smui/textfield/helper-text';
-  import FloatingLabel from '@smui/floating-label';
-  import LineRipple from '@smui/line-ripple';
-  import NotchedOutline from '@smui/notched-outline';
+  import Textfield, { Input, Textarea } from '@detachhead/smui-textfield';
+  import Icon from '@detachhead/smui-textfield/icon';
+  import HelperText from '@detachhead/smui-textfield/helper-text';
+  import FloatingLabel from '@detachhead/smui-floating-label';
+  import LineRipple from '@detachhead/smui-line-ripple';
+  import NotchedOutline from '@detachhead/smui-notched-outline';
 
   // Manual Setup requires passing the lower components up to the Textfield
   let valueA = '';

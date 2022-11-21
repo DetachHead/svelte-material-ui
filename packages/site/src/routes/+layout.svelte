@@ -183,12 +183,12 @@
   import { assets } from '$app/paths';
   import { page } from '$app/stores';
 
-  import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
-  import Drawer, { Content, Scrim, AppContent } from '@smui/drawer';
-  import IconButton from '@smui/icon-button';
-  import List, { Item, Text, Separator } from '@smui/list';
-  import Tooltip, { Wrapper } from '@smui/tooltip';
-  import { Icon, Svg } from '@smui/common';
+  import TopAppBar, { Row, Section, Title } from '@detachhead/smui-top-app-bar';
+  import Drawer, { Content, Scrim, AppContent } from '@detachhead/smui-drawer';
+  import IconButton from '@detachhead/smui-icon-button';
+  import List, { Item, Text, Separator } from '@detachhead/smui-list';
+  import Tooltip, { Wrapper } from '@detachhead/smui-tooltip';
+  import { Icon, Svg } from '@detachhead/smui-common';
 
   const iframe = $page.url.pathname.includes('/iframe');
 

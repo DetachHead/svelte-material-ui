@@ -25,9 +25,9 @@
 <pre class="status">Action: {action}</pre>
 
 <script lang="ts">
-  import Snackbar, { Actions, Label } from '@smui/snackbar';
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
+  import Snackbar, { Actions, Label } from '@detachhead/smui-snackbar';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
 
   let snackbar: Snackbar;
   let reason = 'nothing yet';

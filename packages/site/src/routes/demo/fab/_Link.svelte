@@ -40,7 +40,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Fab, { Label, Icon } from '@smui/fab';
+  import Fab, { Label, Icon } from '@detachhead/smui-fab';
 
   let clicked = 0;
 </script>

@@ -303,15 +303,15 @@
     mdiLanguageTypescript,
   } from '@mdi/js';
   import { siMaterialdesign, siSvelte, siSass } from 'simple-icons/icons';
-  import Paper, { Title, Content } from '@smui/paper';
+  import Paper, { Title, Content } from '@detachhead/smui-paper';
   import List, {
     Item,
     Graphic,
     Text,
     PrimaryText,
     SecondaryText,
-  } from '@smui/list';
-  import { Icon, Svg } from '@smui/common';
+  } from '@detachhead/smui-list';
+  import { Icon, Svg } from '@detachhead/smui-common';
 </script>
 
 <style>

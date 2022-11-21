@@ -83,9 +83,9 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import Icon from '@smui/textfield/icon';
-  import Button from '@smui/button';
+  import Textfield from '@detachhead/smui-textfield';
+  import Icon from '@detachhead/smui-textfield/icon';
+  import Button from '@detachhead/smui-button';
 
   let valueA = '';
   let valueB = '';

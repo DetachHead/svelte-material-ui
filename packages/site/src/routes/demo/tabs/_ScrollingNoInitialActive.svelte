@@ -7,6 +7,6 @@
 </div>
 
 <script lang="ts">
-  import Tab, { Label } from '@smui/tab';
-  import TabBar from '@smui/tab-bar';
+  import Tab, { Label } from '@detachhead/smui-tab';
+  import TabBar from '@detachhead/smui-tab-bar';
 </script>

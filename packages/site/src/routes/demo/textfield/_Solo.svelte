@@ -22,10 +22,10 @@
 <pre class="status">Value: {value}</pre>
 
 <script lang="ts">
-  import { Input } from '@smui/textfield';
-  import Paper from '@smui/paper';
-  import Fab from '@smui/fab';
-  import { Icon } from '@smui/common';
+  import { Input } from '@detachhead/smui-textfield';
+  import Paper from '@detachhead/smui-paper';
+  import Fab from '@detachhead/smui-fab';
+  import { Icon } from '@detachhead/smui-common';
 
   let value = '';
 

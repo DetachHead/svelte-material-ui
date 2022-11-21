@@ -11,7 +11,7 @@
 </div>
 
 <script lang="ts">
-  import Select, { Option } from '@smui/select';
+  import Select, { Option } from '@detachhead/smui-select';
 
   let fruits = ['Apple', 'Orange', 'Banana', 'Mango'];
 

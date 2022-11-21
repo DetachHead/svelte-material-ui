@@ -28,9 +28,9 @@
   import BottomAppBar, {
     Section,
     AutoAdjust,
-  } from '@smui-extra/bottom-app-bar';
-  import IconButton from '@smui/icon-button';
-  import Fab, { Icon } from '@smui/fab';
+  } from '@detachhead/smui-extra-bottom-app-bar';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Fab, { Icon } from '@detachhead/smui-fab';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let bottomAppBar: BottomAppBar;

@@ -11,7 +11,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import List, { Item, Separator, Text } from '@smui/list';
+  import List, { Item, Separator, Text } from '@detachhead/smui-list';
 
   let clicked = 'nothing yet';
 </script>

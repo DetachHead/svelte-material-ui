@@ -19,5 +19,5 @@
 </div>
 
 <script lang="ts">
-  import Paper, { Title, Subtitle, Content } from '@smui/paper';
+  import Paper, { Title, Subtitle, Content } from '@detachhead/smui-paper';
 </script>

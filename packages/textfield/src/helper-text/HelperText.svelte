@@ -25,14 +25,14 @@
   import { MDCTextFieldHelperTextFoundation } from '@material/textfield';
   import { onMount } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   type OwnProps = {
     use?: ActionArray;

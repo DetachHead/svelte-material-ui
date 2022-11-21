@@ -7,8 +7,8 @@
 <Button on:click={addInputChip}><Label>Add</Label></Button>
 
 <script lang="ts">
-  import Chip, { Set, TrailingAction, Text } from '@smui/chips';
-  import Button, { Label } from '@smui/button';
+  import Chip, { Set, TrailingAction, Text } from '@detachhead/smui-chips';
+  import Button, { Label } from '@detachhead/smui-button';
 
   let input = [1, 2, 3, 4];
 

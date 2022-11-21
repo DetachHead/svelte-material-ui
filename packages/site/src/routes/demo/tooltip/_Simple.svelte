@@ -70,12 +70,12 @@
   class="status">Clicked: {clicked}, Checked: {checked}, Selected: {selected}</pre>
 
 <script lang="ts">
-  import Tooltip, { Wrapper } from '@smui/tooltip';
-  import Button from '@smui/button';
-  import Fab from '@smui/fab';
-  import Checkbox from '@smui/checkbox';
-  import Radio from '@smui/radio';
-  import { Label, Icon } from '@smui/common';
+  import Tooltip, { Wrapper } from '@detachhead/smui-tooltip';
+  import Button from '@detachhead/smui-button';
+  import Fab from '@detachhead/smui-fab';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import Radio from '@detachhead/smui-radio';
+  import { Label, Icon } from '@detachhead/smui-common';
 
   let clicked = 0;
   let checked = false;

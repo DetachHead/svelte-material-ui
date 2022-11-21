@@ -42,10 +42,10 @@
 </div>
 
 <script lang="ts">
-  import Badge from '@smui-extra/badge';
-  import Button, { Label } from '@smui/button';
-  import Radio from '@smui/radio';
-  import FormField from '@smui/form-field';
+  import Badge from '@detachhead/smui-extra-badge';
+  import Button, { Label } from '@detachhead/smui-button';
+  import Radio from '@detachhead/smui-radio';
+  import FormField from '@detachhead/smui-form-field';
 
   let position: 'inset' | 'middle' | 'outset' = 'middle';
   let alignY: 'top' | 'middle' | 'bottom' = 'top';

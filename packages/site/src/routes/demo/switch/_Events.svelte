@@ -15,9 +15,9 @@
     : 'None yet.'}</pre>
 
 <script lang="ts">
-  import Switch from '@smui/switch';
-  import FormField from '@smui/form-field';
-  import Button from '@smui/button';
+  import Switch from '@detachhead/smui-switch';
+  import FormField from '@detachhead/smui-form-field';
+  import Button from '@detachhead/smui-button';
 
   let checked = false;
   let event: CustomEvent | undefined = undefined;

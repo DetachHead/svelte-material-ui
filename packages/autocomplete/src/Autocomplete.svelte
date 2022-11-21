@@ -88,8 +88,8 @@
 
 <script lang="ts">
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -97,12 +97,12 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Textfield from '@smui/textfield';
-  import Menu from '@smui/menu';
-  import type { SMUIListAccessor, SMUIListItemAccessor } from '@smui/list';
-  import List, { Item, Text } from '@smui/list';
-  import { Anchor } from '@smui/menu-surface';
+  } from '@detachhead/smui-common/internal';
+  import Textfield from '@detachhead/smui-textfield';
+  import Menu from '@detachhead/smui-menu';
+  import type { SMUIListAccessor, SMUIListItemAccessor } from '@detachhead/smui-list';
+  import List, { Item, Text } from '@detachhead/smui-list';
+  import { Anchor } from '@detachhead/smui-menu-surface';
 
   type OwnProps = {
     use?: ActionArray;

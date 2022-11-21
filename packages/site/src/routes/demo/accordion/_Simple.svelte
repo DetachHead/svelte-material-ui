@@ -46,5 +46,5 @@
 </div>
 
 <script lang="ts">
-  import Accordion, { Panel, Header, Content } from '@smui-extra/accordion';
+  import Accordion, { Panel, Header, Content } from '@detachhead/smui-extra-accordion';
 </script>

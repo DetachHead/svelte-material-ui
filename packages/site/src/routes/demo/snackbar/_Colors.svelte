@@ -39,9 +39,9 @@
 </Button>
 
 <script lang="ts">
-  import Snackbar, { Label, Actions } from '@smui/snackbar';
-  import IconButton from '@smui/icon-button';
-  import Button from '@smui/button';
+  import Snackbar, { Label, Actions } from '@detachhead/smui-snackbar';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Button from '@detachhead/smui-button';
 
   let snackbarSuccess: Snackbar;
   let snackbarWarning: Snackbar;

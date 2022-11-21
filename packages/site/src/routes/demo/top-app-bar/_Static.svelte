@@ -86,10 +86,10 @@
 </div>
 
 <script lang="ts">
-  import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
-  import IconButton from '@smui/icon-button';
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
+  import TopAppBar, { Row, Section, Title } from '@detachhead/smui-top-app-bar';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let prominent = false;

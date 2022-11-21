@@ -136,7 +136,7 @@ Click a component/package below to go to the documentation. (Note that this docu
 
 <sub>‡ This is not an MDC-Web component (upstream library). It is an addition that SMUI provides.</sub>
 
-- Labels and icons are named exports in the components that use them, or you can use the 'Label' and 'Icon' exports from '@smui/common'. (Except for chips labels and icons, textfield icons, and select icons, because they are special snowflakes.)
+- Labels and icons are named exports in the components that use them, or you can use the 'Label' and 'Icon' exports from '@detachhead/smui-common'. (Except for chips labels and icons, textfield icons, and select icons, because they are special snowflakes.)
 
 # License
 

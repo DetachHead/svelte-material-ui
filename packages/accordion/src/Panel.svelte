@@ -25,13 +25,13 @@
   import { onMount, setContext } from 'svelte';
   import { writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     dispatch,
-  } from '@smui/common/internal';
-  import Paper from '@smui/paper';
+  } from '@detachhead/smui-common/internal';
+  import Paper from '@detachhead/smui-paper';
 
   import type { SMUIAccordionPanelAccessor } from './Panel.types.js';
 

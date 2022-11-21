@@ -30,9 +30,9 @@
     : ''}</pre>
 
 <script lang="ts">
-  import Dialog, { Title, Content } from '@smui/dialog';
-  import Button, { Label } from '@smui/button';
-  import List, { Item, Text } from '@smui/list';
+  import Dialog, { Title, Content } from '@detachhead/smui-dialog';
+  import Button, { Label } from '@detachhead/smui-button';
+  import List, { Item, Text } from '@detachhead/smui-list';
 
   let open = false;
   let clicked: string | number = 'Nothing yet.';

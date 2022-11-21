@@ -63,9 +63,9 @@
     Header,
     Title,
     Subtitle,
-  } from '@smui/drawer';
-  import Button, { Label } from '@smui/button';
-  import List, { Item, Text } from '@smui/list';
+  } from '@detachhead/smui-drawer';
+  import Button, { Label } from '@detachhead/smui-button';
+  import List, { Item, Text } from '@detachhead/smui-list';
 
   let open = false;
   let active = 'Gray Kittens';

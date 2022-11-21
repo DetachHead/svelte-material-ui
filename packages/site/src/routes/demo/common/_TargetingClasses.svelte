@@ -13,7 +13,7 @@
 </div>
 
 <script lang="ts">
-  import Button, { Label } from '@smui/button';
+  import Button, { Label } from '@detachhead/smui-button';
 </script>
 
 <style>

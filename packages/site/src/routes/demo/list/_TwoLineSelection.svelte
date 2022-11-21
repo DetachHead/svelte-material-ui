@@ -39,7 +39,7 @@
     Text,
     PrimaryText,
     SecondaryText,
-  } from '@smui/list';
+  } from '@detachhead/smui-list';
 
   let options = [
     {

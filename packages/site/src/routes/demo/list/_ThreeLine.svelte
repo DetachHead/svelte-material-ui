@@ -33,5 +33,5 @@
 </div>
 
 <script lang="ts">
-  import List, { Item, Text, PrimaryText, SecondaryText } from '@smui/list';
+  import List, { Item, Text, PrimaryText, SecondaryText } from '@detachhead/smui-list';
 </script>

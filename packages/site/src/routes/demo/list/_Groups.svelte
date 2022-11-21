@@ -44,7 +44,7 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import List, { Group, Item, Subheader, Text } from '@smui/list';
+  import List, { Group, Item, Subheader, Text } from '@detachhead/smui-list';
 
   let clicked = 'nothing yet';
 </script>

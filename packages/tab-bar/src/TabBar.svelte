@@ -28,8 +28,8 @@
   import { MDCTabBarFoundation } from '@material/tab-bar';
   import { onMount, setContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -37,9 +37,9 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import type { SMUITabAccessor } from '@smui/tab';
-  import TabScroller from '@smui/tab-scroller';
+  } from '@detachhead/smui-common/internal';
+  import type { SMUITabAccessor } from '@detachhead/smui-tab';
+  import TabScroller from '@detachhead/smui-tab-scroller';
 
   type PrimitiveKey = string | number;
   type TabKey = $$Generic<Object | PrimitiveKey>;

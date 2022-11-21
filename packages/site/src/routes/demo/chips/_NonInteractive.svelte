@@ -5,5 +5,5 @@
 </Set>
 
 <script lang="ts">
-  import Chip, { Set, Text } from '@smui/chips';
+  import Chip, { Set, Text } from '@detachhead/smui-chips';
 </script>

@@ -13,7 +13,7 @@
 </LayoutGrid>
 
 <script lang="ts">
-  import LayoutGrid, { Cell, InnerGrid } from '@smui/layout-grid';
+  import LayoutGrid, { Cell, InnerGrid } from '@detachhead/smui-layout-grid';
 </script>
 
 <style>

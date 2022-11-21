@@ -4,7 +4,7 @@ import Item from './Item.js';
 import ImageAspectContainer from './ImageAspectContainer.js';
 import Image from './Image.js';
 import Supporting from './Supporting.js';
-import { Label } from '@smui/common';
+import { Label } from '@detachhead/smui-common';
 
 export default ImageList;
 

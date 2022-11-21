@@ -95,9 +95,9 @@
     Title,
     Subtitle,
     Scrim,
-  } from '@smui/drawer';
-  import Button, { Label } from '@smui/button';
-  import List, { Item, Text, Graphic, Separator, Subheader } from '@smui/list';
+  } from '@detachhead/smui-drawer';
+  import Button, { Label } from '@detachhead/smui-button';
+  import List, { Item, Text, Graphic, Separator, Subheader } from '@detachhead/smui-list';
 
   let open = false;
   let active = 'Inbox';

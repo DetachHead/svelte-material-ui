@@ -37,7 +37,7 @@ Now load the Components, from within a `<script>` section, and you can use them:
 </Card>
 
 <script>
-  import Button from '@smui/button';
-  import Card, { Content } from '@smui/card';
+  import Button from '@detachhead/smui-button';
+  import Card, { Content } from '@detachhead/smui-card';
 </script>
 ```

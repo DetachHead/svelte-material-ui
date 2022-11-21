@@ -39,15 +39,15 @@
   class="status">Clicked: {clicked}, Checked: {checked}, Selected: {selected}, Switched: {switchChecked}</pre>
 
 <script lang="ts">
-  import Wrapper from '@smui/touch-target';
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
-  import Fab from '@smui/fab';
-  import Chip, { Set, Text } from '@smui/chips';
-  import Checkbox from '@smui/checkbox';
-  import Radio from '@smui/radio';
-  import Switch from '@smui/switch';
-  import { Label, Icon } from '@smui/common';
+  import Wrapper from '@detachhead/smui-touch-target';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Fab from '@detachhead/smui-fab';
+  import Chip, { Set, Text } from '@detachhead/smui-chips';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import Radio from '@detachhead/smui-radio';
+  import Switch from '@detachhead/smui-switch';
+  import { Label, Icon } from '@detachhead/smui-common';
 
   let clicked = 0;
   let checked = false;

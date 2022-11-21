@@ -38,15 +38,15 @@
   import { MDCSegmentedButtonSegmentFoundation } from '@material/segmented-button/dist/mdc.segmentedButton.js';
   import { onMount, getContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
 
   import type { SMUISegmentedButtonSegmentAccessor } from './Segment.types.js';
 

@@ -8,8 +8,8 @@
 <pre class="status">Selected: {selected}</pre>
 
 <script lang="ts">
-  import FormField from '@smui/form-field';
-  import Radio from '@smui/radio';
+  import FormField from '@detachhead/smui-form-field';
+  import Radio from '@detachhead/smui-radio';
 
   let selected = 'yes';
 </script>

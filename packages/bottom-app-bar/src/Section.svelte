@@ -15,9 +15,9 @@
 <script lang="ts">
   import { getContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
-  import { forwardEventsBuilder, classMap } from '@smui/common/internal';
-  import Paper from '@smui/paper';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
+  import { forwardEventsBuilder, classMap } from '@detachhead/smui-common/internal';
+  import Paper from '@detachhead/smui-paper';
 
   type OwnProps = {
     use?: ActionArray;

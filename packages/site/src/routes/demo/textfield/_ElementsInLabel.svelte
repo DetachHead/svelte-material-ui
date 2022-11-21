@@ -11,8 +11,8 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import { Icon as CommonIcon } from '@smui/common';
+  import Textfield from '@detachhead/smui-textfield';
+  import { Icon as CommonIcon } from '@detachhead/smui-common';
 
   let valueElementsLabel = '';
 </script>

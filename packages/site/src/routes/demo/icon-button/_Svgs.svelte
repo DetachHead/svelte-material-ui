@@ -24,8 +24,8 @@
 
 <script lang="ts">
   import { mdiFormatColorFill, mdiWrench, mdiCurrencyUsd } from '@mdi/js';
-  import IconButton, { Icon } from '@smui/icon-button';
-  import { Svg } from '@smui/common';
+  import IconButton, { Icon } from '@detachhead/smui-icon-button';
+  import { Svg } from '@detachhead/smui-common';
 
   let clicked = 0;
 </script>

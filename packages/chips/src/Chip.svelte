@@ -62,15 +62,15 @@
   import { onMount, setContext, getContext } from 'svelte';
   import { writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
-  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@smui/common';
-  import { SmuiElement } from '@smui/common';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
+  import type { SmuiElementMap, SmuiAttrs, SmuiSvgAttrs } from '@detachhead/smui-common';
+  import { SmuiElement } from '@detachhead/smui-common';
 
   import type { SMUIChipsPrimaryActionAccessor } from './Text.types.js';
   import type { SMUIChipsTrailingActionAccessor } from './TrailingAction.types.js';

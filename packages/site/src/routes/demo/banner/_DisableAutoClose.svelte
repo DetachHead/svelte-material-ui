@@ -29,10 +29,10 @@
 </div>
 
 <script lang="ts">
-  import type { Action } from '@smui/banner';
-  import Banner, { Label } from '@smui/banner';
-  import Button from '@smui/button';
-  import TopAppBar, { Row, Section, Title } from '@smui/top-app-bar';
+  import type { Action } from '@detachhead/smui-banner';
+  import Banner, { Label } from '@detachhead/smui-banner';
+  import Button from '@detachhead/smui-button';
+  import TopAppBar, { Row, Section, Title } from '@detachhead/smui-top-app-bar';
 
   const actions = {
     [0]: 'Primary',

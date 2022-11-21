@@ -19,13 +19,13 @@
   import { setContext } from 'svelte';
   import { writable } from 'svelte/store';
   import { get_current_component } from 'svelte/internal';
-  import type { SmuiAttrs } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { SmuiAttrs } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
     useActions,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   type OwnProps = {
     use?: ActionArray;

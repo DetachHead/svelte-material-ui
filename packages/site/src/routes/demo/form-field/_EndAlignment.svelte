@@ -6,8 +6,8 @@
 <pre class="status">Checked: {checked ? 'Yes' : 'No'}</pre>
 
 <script lang="ts">
-  import FormField from '@smui/form-field';
-  import Checkbox from '@smui/checkbox';
+  import FormField from '@detachhead/smui-form-field';
+  import Checkbox from '@detachhead/smui-checkbox';
 
   let checked = false;
 </script>

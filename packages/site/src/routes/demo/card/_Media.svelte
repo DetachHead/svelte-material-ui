@@ -59,7 +59,7 @@
     PrimaryAction,
     Media,
     MediaContent,
-  } from '@smui/card';
+  } from '@detachhead/smui-card';
 
   let clicked = 0;
 </script>

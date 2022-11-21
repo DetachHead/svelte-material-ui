@@ -77,11 +77,11 @@
     Content,
     Actions,
     InitialFocus,
-  } from '@smui/dialog';
-  import IconButton from '@smui/icon-button';
-  import Button, { Label } from '@smui/button';
-  import List, { Item, Graphic, Text } from '@smui/list';
-  import Radio from '@smui/radio';
+  } from '@detachhead/smui-dialog';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Button, { Label } from '@detachhead/smui-button';
+  import List, { Item, Graphic, Text } from '@detachhead/smui-list';
+  import Radio from '@detachhead/smui-radio';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let open = false;

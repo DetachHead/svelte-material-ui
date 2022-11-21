@@ -17,8 +17,8 @@
 
 <script lang="ts">
   import { mdiPlus } from '@mdi/js';
-  import Fab, { Icon } from '@smui/fab';
-  import { Svg } from '@smui/common';
+  import Fab, { Icon } from '@detachhead/smui-fab';
+  import { Svg } from '@detachhead/smui-common';
 
   let clicked = 0;
 </script>

@@ -42,9 +42,9 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import HelperText from '@smui/textfield/helper-text';
-  import CharacterCounter from '@smui/textfield/character-counter';
+  import Textfield from '@detachhead/smui-textfield';
+  import HelperText from '@detachhead/smui-textfield/helper-text';
+  import CharacterCounter from '@detachhead/smui-textfield/character-counter';
 
   let valueA = '';
   let valueB = '';

@@ -29,9 +29,9 @@
 <pre class="status">Clicked: {clicked}</pre>
 
 <script lang="ts">
-  import Fab, { Icon } from '@smui/fab';
-  import FormField from '@smui/form-field';
-  import Checkbox from '@smui/checkbox';
+  import Fab, { Icon } from '@detachhead/smui-fab';
+  import FormField from '@detachhead/smui-form-field';
+  import Checkbox from '@detachhead/smui-checkbox';
 
   let clicked = 0;
   let exited = false;

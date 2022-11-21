@@ -6,6 +6,6 @@
 </div>
 
 <script lang="ts">
-  import Badge from '@smui-extra/badge';
-  import Button, { Label } from '@smui/button';
+  import Badge from '@detachhead/smui-extra-badge';
+  import Button, { Label } from '@detachhead/smui-button';
 </script>

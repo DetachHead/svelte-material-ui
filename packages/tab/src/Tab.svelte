@@ -71,7 +71,7 @@
   import type { ComponentType, SvelteComponent } from 'svelte';
   import { onMount, setContext, getContext } from 'svelte';
   import { get_current_component } from 'svelte/internal';
-  import type { ActionArray } from '@smui/common/internal';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -79,16 +79,16 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
   import type {
     SmuiElementMap,
     SmuiElementPropMap,
     SmuiAttrs,
     SmuiSvgAttrs,
-  } from '@smui/common';
-  import { SmuiElement } from '@smui/common';
-  import TabIndicator from '@smui/tab-indicator';
+  } from '@detachhead/smui-common';
+  import { SmuiElement } from '@detachhead/smui-common';
+  import TabIndicator from '@detachhead/smui-tab-indicator';
 
   import type { SMUITabAccessor } from './Tab.types.js';
 

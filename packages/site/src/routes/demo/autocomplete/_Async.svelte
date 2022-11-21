@@ -16,9 +16,9 @@
 </div>
 
 <script lang="ts">
-  import Autocomplete from '@smui-extra/autocomplete';
-  import { Text } from '@smui/list';
-  import CircularProgress from '@smui/circular-progress';
+  import Autocomplete from '@detachhead/smui-extra-autocomplete';
+  import { Text } from '@detachhead/smui-list';
+  import CircularProgress from '@detachhead/smui-circular-progress';
 
   let fruits = [
     'Apple',

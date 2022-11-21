@@ -26,9 +26,9 @@
 <pre class="status">Selected: {selected}</pre>
 
 <script lang="ts">
-  import SegmentedButton, { Segment } from '@smui/segmented-button';
-  import Button from '@smui/button';
-  import { Label } from '@smui/common';
+  import SegmentedButton, { Segment } from '@detachhead/smui-segmented-button';
+  import Button from '@detachhead/smui-button';
+  import { Label } from '@detachhead/smui-common';
 
   let choices = ['Morning', 'Afternoon', 'Evening', 'Night'];
   let selected = 'Morning';

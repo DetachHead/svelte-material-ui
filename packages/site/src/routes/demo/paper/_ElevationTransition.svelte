@@ -46,10 +46,10 @@
 </div>
 
 <script lang="ts">
-  import Paper, { Title, Content } from '@smui/paper';
-  import Slider from '@smui/slider';
-  import Radio from '@smui/radio';
-  import FormField from '@smui/form-field';
+  import Paper, { Title, Content } from '@detachhead/smui-paper';
+  import Slider from '@detachhead/smui-slider';
+  import Radio from '@detachhead/smui-radio';
+  import FormField from '@detachhead/smui-form-field';
 
   let elevation = 1;
   let color = 'default';

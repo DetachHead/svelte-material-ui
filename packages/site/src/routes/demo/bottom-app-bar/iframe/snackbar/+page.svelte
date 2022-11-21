@@ -48,13 +48,13 @@
   import BottomAppBar, {
     Section,
     AutoAdjust,
-  } from '@smui-extra/bottom-app-bar';
-  import Snackbar, { Actions, Label } from '@smui/snackbar';
-  import Button from '@smui/button';
-  import IconButton from '@smui/icon-button';
-  import Fab, { Icon } from '@smui/fab';
-  import Checkbox from '@smui/checkbox';
-  import FormField from '@smui/form-field';
+  } from '@detachhead/smui-extra-bottom-app-bar';
+  import Snackbar, { Actions, Label } from '@detachhead/smui-snackbar';
+  import Button from '@detachhead/smui-button';
+  import IconButton from '@detachhead/smui-icon-button';
+  import Fab, { Icon } from '@detachhead/smui-fab';
+  import Checkbox from '@detachhead/smui-checkbox';
+  import FormField from '@detachhead/smui-form-field';
   import LoremIpsum from '$lib/LoremIpsum.svelte';
 
   let bottomAppBar: BottomAppBar;

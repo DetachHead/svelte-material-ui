@@ -230,8 +230,8 @@
     RemoveLayoutListener,
     SmuiAttrs,
     SmuiElementPropMap,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -239,16 +239,16 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
-  import Ripple from '@smui/ripple';
-  import type { Corner } from '@smui/menu-surface';
-  import { Anchor } from '@smui/menu-surface';
-  import Menu from '@smui/menu';
-  import type { SMUIListAccessor } from '@smui/list';
-  import List from '@smui/list';
-  import FloatingLabel from '@smui/floating-label';
-  import LineRipple from '@smui/line-ripple';
-  import NotchedOutline from '@smui/notched-outline';
+  } from '@detachhead/smui-common/internal';
+  import Ripple from '@detachhead/smui-ripple';
+  import type { Corner } from '@detachhead/smui-menu-surface';
+  import { Anchor } from '@detachhead/smui-menu-surface';
+  import Menu from '@detachhead/smui-menu';
+  import type { SMUIListAccessor } from '@detachhead/smui-list';
+  import List from '@detachhead/smui-list';
+  import FloatingLabel from '@detachhead/smui-floating-label';
+  import LineRipple from '@detachhead/smui-line-ripple';
+  import NotchedOutline from '@detachhead/smui-notched-outline';
 
   import HelperText from './helper-text/HelperText.svelte';
 

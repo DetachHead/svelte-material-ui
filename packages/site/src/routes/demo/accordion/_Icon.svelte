@@ -46,8 +46,8 @@
 </div>
 
 <script lang="ts">
-  import Accordion, { Panel, Header, Content } from '@smui-extra/accordion';
-  import IconButton, { Icon } from '@smui/icon-button';
+  import Accordion, { Panel, Header, Content } from '@detachhead/smui-extra-accordion';
+  import IconButton, { Icon } from '@detachhead/smui-icon-button';
 
   let panel1Open = false;
   let panel2Open = false;

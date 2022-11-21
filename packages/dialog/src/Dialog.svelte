@@ -71,8 +71,8 @@
     RemoveLayoutListener,
     SmuiAttrs,
     SmuiElementPropMap,
-  } from '@smui/common';
-  import type { ActionArray } from '@smui/common/internal';
+  } from '@detachhead/smui-common';
+  import type { ActionArray } from '@detachhead/smui-common/internal';
   import {
     forwardEventsBuilder,
     classMap,
@@ -80,7 +80,7 @@
     prefixFilter,
     useActions,
     dispatch,
-  } from '@smui/common/internal';
+  } from '@detachhead/smui-common/internal';
 
   const { FocusTrap } = domFocusTrap;
   const { closest, matches } = ponyfill;

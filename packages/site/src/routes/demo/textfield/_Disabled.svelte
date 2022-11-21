@@ -17,6 +17,6 @@
 </div>
 
 <script lang="ts">
-  import Textfield from '@smui/textfield';
-  import HelperText from '@smui/textfield/helper-text';
+  import Textfield from '@detachhead/smui-textfield';
+  import HelperText from '@detachhead/smui-textfield/helper-text';
 </script>
