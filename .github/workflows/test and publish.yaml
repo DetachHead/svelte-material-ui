@@ -11,12 +11,7 @@ jobs:
                   node-version: 18.10
             - run: npm ci
             - run: npm run bootstrap
-            - uses: actions/upload-artifact@v2
-              with:
-                name: build
-                path: packages/*/dist
-            - run: npm run check
             - name: canary publish
-              run: ./node_modules/.bin/lerna publish --canary --yes
+              run: ./node_modules/.bin/lerna publish --canary --yes --loglevel silly
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
