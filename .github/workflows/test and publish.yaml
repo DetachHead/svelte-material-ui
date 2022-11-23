@@ -13,5 +13,5 @@ jobs:
             - run: npm run bootstrap
             - run: echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} >> .npmrc
             - run: cat .npmrc
-            - run: lerna run "npm version "$(node -p 'require("./package.json").version')-$GITHUB_SHA" --git-tag-version false"
-            - run: lerna run npm publish
+            - run: lerna exec -- npm version $(node -p "require(\"./lerna.json\").version")-$GITHUB_SHA --git-tag-version false
+            - run: lerna publish
