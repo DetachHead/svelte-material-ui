@@ -11,7 +11,6 @@ jobs:
                   node-version: 18.10
             - run: npm ci
             - run: npm run bootstrap
-            - run: echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} >> .npmrc
-            - run: cat .npmrc
+            - run: npm set "//registry.npmjs.org/:_authToken" ${{ secrets.NPM_TOKEN }}
             - run: lerna exec -- npm version $(node -p "require(\"./lerna.json\").version")-$GITHUB_SHA --git-tag-version false
-            - run: lerna publish
+            - run: lerna exec -- npm publish
