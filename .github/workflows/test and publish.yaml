@@ -13,5 +13,5 @@ jobs:
             - run: npm run bootstrap
             - run: echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} >> .npmrc
             - run: cat .npmrc
-            - name: canary publish
-              run: ./node_modules/.bin/lerna publish --canary --yes --loglevel silly
+            - run: lerna run npm version $(node -p "require(\"./package.json\").version")-$GITHUB_SHA --git-tag-version false
+            - run: lerna run npm publish
