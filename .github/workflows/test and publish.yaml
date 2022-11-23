@@ -11,9 +11,7 @@ jobs:
                   node-version: 18.10
             - run: npm ci
             - run: npm run bootstrap
-            - run: echo _auth=${{ secrets.NPM_TOKEN }} >> .npmrc
-            - run: echo email=${{ secrets.NPM_EMAIL }} >> .npmrc
-            - run: echo always-auth=true >> .npmrc
+            - run: echo //registry.npmjs.org/:_authToken={{ secrets.NPM_TOKEN }} >> .npmrc
             - run: cat .npmrc
             - name: canary publish
               run: ./node_modules/.bin/lerna publish --canary --yes --loglevel silly
